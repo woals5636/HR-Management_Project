@@ -24,6 +24,6 @@ public class DataLoader implements CommandLineRunner {
         employee1.setDepartment("HR");
         employee1.setPosition("Manager");
         employee1.setRole(Role.USER);
-        employeeRepository.save(employee1);
+//        employeeRepository.save(employee1);
     }
 }

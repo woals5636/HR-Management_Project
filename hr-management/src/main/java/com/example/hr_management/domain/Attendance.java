@@ -1,9 +1,12 @@
 package com.example.hr_management.domain;
 
 import jakarta.persistence.*;
+import lombok.Data;
+
 import java.time.LocalDate;
 
 @Entity
+@Data
 @Table(name = "Attendance")
 public class Attendance {
 

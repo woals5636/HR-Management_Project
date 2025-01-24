@@ -1,9 +1,12 @@
 package com.example.hr_management.domain;
 
 import jakarta.persistence.*;
+import lombok.Data;
+
 import java.math.BigDecimal;
 
 @Entity
+@Data
 @Table(name = "Salary")
 public class Salary {
 
